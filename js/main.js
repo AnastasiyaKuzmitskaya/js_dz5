@@ -67,3 +67,4 @@ for(let elem of catss){
     console.log(newNumbers);
 
     
+    console.log(evenNumbers.indexOf(8));
