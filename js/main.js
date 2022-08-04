@@ -18,8 +18,13 @@ console.log(animals[animals.length - 1]);
 
 
 // Task 3
-/* const numbers = [5, 43, 63, 23, 90];
-console.log(numbers.splice(0,4));   */
+const numbers = [5, 43, 63, 23, 90];
+console.log(numbers.splice(0,5));  
+
+console.log(numbers);
+
+
+
 
 
 // Task 4
@@ -68,3 +73,15 @@ for(let elem of catss){
 
     
     console.log(evenNumbers.indexOf(8));
+
+
+      // Task 7
+
+      const binary = [0, 0, 0, 0];
+      const binaryOne = binary.join('1');
+
+      console.log(binaryOne);
+
+
+
+      
