@@ -18,13 +18,19 @@ console.log(animals[animals.length - 1]);
 
 
 // Task 3
+////1 cпособ
 const numbers = [5, 43, 63, 23, 90];
 console.log(numbers.splice(0,5));  
 
-console.log(numbers);
+console.log(numbers);  
+
+////2 cпособ
 
 
-
+for(let i=0; 0<numbers.length; i++){
+  numbers.pop();
+}
+console.log(numbers); 
 
 
 // Task 4
@@ -32,17 +38,26 @@ console.log(numbers);
 const students = ['Polina', 'Dasha', 'Masha'];
 
 /// последний элемент
-students.pop(2);
-students.push('Borya');
 
+students.splice(2, 1, 'Borya');
 
 /// первый элемент
-students.shift();
-students.unshift('Andrey');
 
+students.splice(0, 1, 'Andrey');
 
 console.log(students);
 
+
+////второй способ
+students.pop(2);
+students.push('Borya'); 
+
+
+
+students.shift();
+students.unshift('Andrey'); 
+
+console.log(students);
 
 // Task 5
 
@@ -75,12 +90,12 @@ for(let elem of catss){
     console.log(evenNumbers.indexOf(8));
 
 
-      // Task 7
+      // Task 7 
 
       const binary = [0, 0, 0, 0];
-      const binaryOne = binary.join('1');
 
-      console.log(binaryOne);
+      console.log(binary.join('1'));
+
 
 
 
