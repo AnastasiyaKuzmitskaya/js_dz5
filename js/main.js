@@ -53,3 +53,17 @@ const catss = ['Gachito', 'Tom', 'Batman'];
 for(let elem of catss){
     console.log(elem);
     }
+
+
+
+
+    // Task 6
+
+
+    const evenNumbers = [2, 4, 6, 8, 10];
+    const oddNumbers = [1, 3, 5, 7, 9];
+
+    const newNumbers = evenNumbers.concat(oddNumbers);
+    console.log(newNumbers);
+
+    
