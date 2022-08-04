@@ -40,9 +40,16 @@ console.log(students);
 
 
 // Task 5
-const cats = ['Gachito', 'Tom', 'Batman'];
 
+const cats = ['Gachito', 'Tom', 'Batman'];
+/// цикл for
 for(let i = 0; i < cats.length; i++){
 console.log(cats[i]);
 }
 
+/// цикл for of
+const catss = ['Gachito', 'Tom', 'Batman'];
+
+for(let elem of catss){
+    console.log(elem);
+    }
